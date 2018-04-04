@@ -265,7 +265,7 @@ tv_shows
 
 This is a nested data structure.  And it can be confusing to disentangle.  A good technique is to describe the data structure first before working with it.
 
-So `tv_shows` is a list a list, with each element of the list a dictionary.  The dictionary has a key of `creators` which itself points to another list.  So in describing the data structure, just look to the braces and brackets at the very beginning.  `[{` means we are starting an list with a dictionary as the first element.  
+So `tv_shows` is a list, with each element of the list a dictionary.  The dictionary has a key of `creators` which itself points to another list.  So in describing the data structure, just look to the braces and brackets at the very beginning.  `[{` means we are starting an list with a dictionary as the first element.  
 
 Ok, let's start working with this nested data structure.  First let's select the second creator of Seinfeld and set it equal to the variable `jerry`.
 
